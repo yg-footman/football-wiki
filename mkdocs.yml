@@ -1,0 +1,19 @@
+site_name: Football Project Wiki
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - ezlinks:
+      wikilinks: true
+      reference_links: true
+
+markdown_extensions:
+  - attr_list
